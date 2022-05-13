@@ -11,7 +11,7 @@
 
   - name: i want to start apache2
     service: 
-      name: "{{apache2mywebpackonubuntu}}"
+      name: "{{mywebpackonubuntu}}"
       state: restarted    
     when: ansible_os_family =="Debian"  
 
@@ -26,6 +26,12 @@
       name: "{{webpackonredHat}}"
       state: started
     when: ansible_os_family =="RedHat"
+
+
+
+
+
+
      
     
        
