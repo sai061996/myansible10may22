@@ -19,3 +19,9 @@
 [myredHatservers]
 172.31.12.245
 
+
+[mywebservers:vars]
+myvar=value
+mywebpackonubuntu= apache2
+webpackonredHat= httpd
+
