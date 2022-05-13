@@ -1,6 +1,6 @@
 ---
 - hosts: mywebservers
-  becomr: yes
+  become: yes
   tasks: 
   - name: install java on ubuntu
     apt:
